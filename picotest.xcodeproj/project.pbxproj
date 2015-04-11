@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F167E0711AD97C8F00AFE994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167E0701AD97C8F00AFE994 /* AppDelegate.swift */; };
+		F167E0731AD97C8F00AFE994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167E0721AD97C8F00AFE994 /* ViewController.swift */; };
+		F167E0761AD97C9000AFE994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F167E0741AD97C9000AFE994 /* Main.storyboard */; };
+		F167E0781AD97C9000AFE994 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F167E0771AD97C9000AFE994 /* Images.xcassets */; };
+		F167E07B1AD97C9000AFE994 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F167E0791AD97C9000AFE994 /* LaunchScreen.xib */; };
+		F167E0871AD97C9000AFE994 /* picotestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F167E0861AD97C9000AFE994 /* picotestTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F167E0811AD97C9000AFE994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F167E0631AD97C8F00AFE994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F167E06A1AD97C8F00AFE994;
+			remoteInfo = picotest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F167E06B1AD97C8F00AFE994 /* picotest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picotest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F167E06F1AD97C8F00AFE994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F167E0701AD97C8F00AFE994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F167E0721AD97C8F00AFE994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F167E0751AD97C9000AFE994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F167E0771AD97C9000AFE994 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F167E07A1AD97C9000AFE994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F167E0801AD97C9000AFE994 /* picotestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picotestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F167E0851AD97C9000AFE994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F167E0861AD97C9000AFE994 /* picotestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picotestTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F167E0681AD97C8F00AFE994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F167E07D1AD97C9000AFE994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F167E0621AD97C8F00AFE994 = {
+			isa = PBXGroup;
+			children = (
+				F167E06D1AD97C8F00AFE994 /* picotest */,
+				F167E0831AD97C9000AFE994 /* picotestTests */,
+				F167E06C1AD97C8F00AFE994 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F167E06C1AD97C8F00AFE994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F167E06B1AD97C8F00AFE994 /* picotest.app */,
+				F167E0801AD97C9000AFE994 /* picotestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F167E06D1AD97C8F00AFE994 /* picotest */ = {
+			isa = PBXGroup;
+			children = (
+				F167E0701AD97C8F00AFE994 /* AppDelegate.swift */,
+				F167E0721AD97C8F00AFE994 /* ViewController.swift */,
+				F167E0741AD97C9000AFE994 /* Main.storyboard */,
+				F167E0771AD97C9000AFE994 /* Images.xcassets */,
+				F167E0791AD97C9000AFE994 /* LaunchScreen.xib */,
+				F167E06E1AD97C8F00AFE994 /* Supporting Files */,
+			);
+			path = picotest;
+			sourceTree = "<group>";
+		};
+		F167E06E1AD97C8F00AFE994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F167E06F1AD97C8F00AFE994 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F167E0831AD97C9000AFE994 /* picotestTests */ = {
+			isa = PBXGroup;
+			children = (
+				F167E0861AD97C9000AFE994 /* picotestTests.swift */,
+				F167E0841AD97C9000AFE994 /* Supporting Files */,
+			);
+			path = picotestTests;
+			sourceTree = "<group>";
+		};
+		F167E0841AD97C9000AFE994 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F167E0851AD97C9000AFE994 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F167E06A1AD97C8F00AFE994 /* picotest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F167E08A1AD97C9000AFE994 /* Build configuration list for PBXNativeTarget "picotest" */;
+			buildPhases = (
+				F167E0671AD97C8F00AFE994 /* Sources */,
+				F167E0681AD97C8F00AFE994 /* Frameworks */,
+				F167E0691AD97C8F00AFE994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picotest;
+			productName = picotest;
+			productReference = F167E06B1AD97C8F00AFE994 /* picotest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F167E07F1AD97C9000AFE994 /* picotestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F167E08D1AD97C9000AFE994 /* Build configuration list for PBXNativeTarget "picotestTests" */;
+			buildPhases = (
+				F167E07C1AD97C9000AFE994 /* Sources */,
+				F167E07D1AD97C9000AFE994 /* Frameworks */,
+				F167E07E1AD97C9000AFE994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F167E0821AD97C9000AFE994 /* PBXTargetDependency */,
+			);
+			name = picotestTests;
+			productName = picotestTests;
+			productReference = F167E0801AD97C9000AFE994 /* picotestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F167E0631AD97C8F00AFE994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = drenerdo;
+				TargetAttributes = {
+					F167E06A1AD97C8F00AFE994 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F167E07F1AD97C9000AFE994 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F167E06A1AD97C8F00AFE994;
+					};
+				};
+			};
+			buildConfigurationList = F167E0661AD97C8F00AFE994 /* Build configuration list for PBXProject "picotest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F167E0621AD97C8F00AFE994;
+			productRefGroup = F167E06C1AD97C8F00AFE994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F167E06A1AD97C8F00AFE994 /* picotest */,
+				F167E07F1AD97C9000AFE994 /* picotestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F167E0691AD97C8F00AFE994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F167E0761AD97C9000AFE994 /* Main.storyboard in Resources */,
+				F167E07B1AD97C9000AFE994 /* LaunchScreen.xib in Resources */,
+				F167E0781AD97C9000AFE994 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F167E07E1AD97C9000AFE994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F167E0671AD97C8F00AFE994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F167E0731AD97C8F00AFE994 /* ViewController.swift in Sources */,
+				F167E0711AD97C8F00AFE994 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F167E07C1AD97C9000AFE994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F167E0871AD97C9000AFE994 /* picotestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F167E0821AD97C9000AFE994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F167E06A1AD97C8F00AFE994 /* picotest */;
+			targetProxy = F167E0811AD97C9000AFE994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F167E0741AD97C9000AFE994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F167E0751AD97C9000AFE994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F167E0791AD97C9000AFE994 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F167E07A1AD97C9000AFE994 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F167E0881AD97C9000AFE994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F167E0891AD97C9000AFE994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F167E08B1AD97C9000AFE994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = picotest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F167E08C1AD97C9000AFE994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = picotest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F167E08E1AD97C9000AFE994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = picotestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picotest.app/picotest";
+			};
+			name = Debug;
+		};
+		F167E08F1AD97C9000AFE994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = picotestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picotest.app/picotest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F167E0661AD97C8F00AFE994 /* Build configuration list for PBXProject "picotest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F167E0881AD97C9000AFE994 /* Debug */,
+				F167E0891AD97C9000AFE994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F167E08A1AD97C9000AFE994 /* Build configuration list for PBXNativeTarget "picotest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F167E08B1AD97C9000AFE994 /* Debug */,
+				F167E08C1AD97C9000AFE994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F167E08D1AD97C9000AFE994 /* Build configuration list for PBXNativeTarget "picotestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F167E08E1AD97C9000AFE994 /* Debug */,
+				F167E08F1AD97C9000AFE994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F167E0631AD97C8F00AFE994 /* Project object */;
+}
